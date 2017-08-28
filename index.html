@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Dragon Slayer</title>
+	<link rel="shortcut icon" type="image/x-icon" href="images/scroll_favicon.png" />
+	<script src="https://use.fontawesome.com/51c538a656.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Bellefair|Berkshire+Swash" rel="stylesheet">
+	<link rel="stylesheet" href="styles/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	<header id ="top">
+		<div class="social_media">
+		<!-- Share on Twitter -->
+			<a href="https://twitter.com/share" class="twitter-share-button" data-size="large" data-text="I just played Dragon Slayer!" data-lang="en" data-show-count="false">Tweet</a>
+		</div>
+	</header>
+	<section class="main">
+		<form class="wrapper form_flex">
+			<div class="intro wrapper">
+				<h1>Welcome to Dragon Slayer</h1>
+				<h3>Are you ready to fight a dragon? Make sure you assemble a party of adventurers that you can trust.</h3>
+			<img src="images/dragon2.png" alt="picture of dragon to fight">
+			</div>
+			<label>Please enter the names of your party members</label>
+				
+				<div class="field_flex">
+					<fieldset class="player1">
+						<div class="class_selection">
+							<label for="warrior">Warrior:</label>
+							<div class="class_img"><img src="images/warrior.png"></div>
+							<input type="text" required id="warrior" name="player1">
+						</div>
+					</fieldset>
+				
+					<fieldset class="player2">
+						<div class="class_selection">
+							<label for="mage">Mage:</label>
+							<div class="class_img"><img src="images/mage.png"></div>
+							<input type="text" id="mage" required name="player2">
+						</div>
+					</fieldset>
+				
+				<fieldset class="player3">
+					<div class="class_selection">
+						<label for="bard">Bard:</label>
+						<div class="class_img"><img src="images/bard.png"></div>
+						<input type="text" required id="bard" name="player3">
+					</div>
+				</fieldset>
+			</div>
+			
+			<input class="submit" type="submit" value="Fight!">
+			
+		</form>
+		<div class="story_container wrapper">
+			<div class="story_text">
+		</div>
+	</section>
+	
+	<footer>
+		<div class="credits wrapper">
+			<p>Icon set by <a href="http://dycha.net">Ravenmore</a></p>
+			<p>Dragon by <a href="http://madjestiko.deviantart.com/">Majdgestico</a></p>
+			<p>Background image "old map" from <a href="http://www.subtlepatterns.com">Subtle Patterns</a></p>
+			<p>Scroll image from <a href="http://www.freepngimg.com/miscellaneous/scroll">Free PNG Img</a></p>
+		</div>
+	</footer>
+	
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+	<script src="scripts/script.js"></script>
+</body>
+</html>
